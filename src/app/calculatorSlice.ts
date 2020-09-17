@@ -34,7 +34,9 @@ export const slice = createSlice({
             if (state.startNext) {
                 state.displayValue = action.payload.toString()
                 state.startNext = false
-            } else {
+
+            //To limit screen digits to 10. Integers are only reliable up to 15 degits in JS
+            } else if (!(state.displayValue.length >= 15)) {
                 state.displayValue = state.displayValue === "0" ? action.payload.toString() :
                     state.displayValue.concat(action.payload)
             }
@@ -60,16 +62,18 @@ export const slice = createSlice({
 
         },
         modifyDisplay: (state:ICalculatorSliceState, action) => {
-            if (action.payload === "C"){
-                state.displayValue = "0"
-            }
-            else if (action.payload === "CE"){
-                state.displayValue = "0"
-                state.bufferValue = 0
-                state.currentOperator = ""
-            }
-            else if (action.payload === "\uFE6A"){
-                state.displayValue = (parseFloat(state.displayValue)/100).toString()
+            switch (action.payload) {
+                case "C":
+                    state.displayValue = "0"
+                    break;
+                case "CE":
+                    state.displayValue = "0"
+                    state.bufferValue = 0
+                    state.currentOperator = ""
+                    break;
+                case "\uFE6A":
+                    state.displayValue = calc.truncateNumber((parseFloat(state.displayValue) / 100), 10).toString()
+                    break;
             }
         }
     }

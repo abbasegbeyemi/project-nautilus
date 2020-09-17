@@ -18,9 +18,11 @@ export default class CalculatorUtils{
                 result = op1 / op2
 
         }
-        // We want to limit answers to 10 decimal places at most
-        const digits = 10
-        result = Math.trunc(result * Math.pow(10, digits))/Math.pow(10, digits)
-        return result
+
+        return this.truncateNumber(result, 10)
+    }
+
+    truncateNumber (num: number, digits: number) {
+        return Math.trunc(num * Math.pow(10, digits))/Math.pow(10, digits)
     }
 }
