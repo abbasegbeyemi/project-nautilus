@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c234be2da00eed05f01f5e0e92ed44d1",
+    "revision": "65b0cde2bbdf07e8f665043c7cb70b20",
     "url": "/project-nautilus/index.html"
   },
   {
-    "revision": "7f7afa8abd1305560ec8",
+    "revision": "8a0c6424ffea6321c372",
     "url": "/project-nautilus/static/css/main.f414ece1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-nautilus/static/js/2.953cbe66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f7afa8abd1305560ec8",
-    "url": "/project-nautilus/static/js/main.71d1623c.chunk.js"
+    "revision": "8a0c6424ffea6321c372",
+    "url": "/project-nautilus/static/js/main.0c7715c9.chunk.js"
   },
   {
     "revision": "1d1168af404940c5af9b",

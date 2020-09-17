@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/project-nautilus/static/css/main.f414ece1.chunk.css",
-    "main.js": "/project-nautilus/static/js/main.71d1623c.chunk.js",
-    "main.js.map": "/project-nautilus/static/js/main.71d1623c.chunk.js.map",
+    "main.js": "/project-nautilus/static/js/main.0c7715c9.chunk.js",
+    "main.js.map": "/project-nautilus/static/js/main.0c7715c9.chunk.js.map",
     "runtime-main.js": "/project-nautilus/static/js/runtime-main.5c29ba9e.js",
     "runtime-main.js.map": "/project-nautilus/static/js/runtime-main.5c29ba9e.js.map",
     "static/js/2.953cbe66.chunk.js": "/project-nautilus/static/js/2.953cbe66.chunk.js",
     "static/js/2.953cbe66.chunk.js.map": "/project-nautilus/static/js/2.953cbe66.chunk.js.map",
     "index.html": "/project-nautilus/index.html",
-    "precache-manifest.809b32ea69a22443fe8b6d83224eb5e5.js": "/project-nautilus/precache-manifest.809b32ea69a22443fe8b6d83224eb5e5.js",
+    "precache-manifest.e284e068effd62b8eefb9fd7bff2d5be.js": "/project-nautilus/precache-manifest.e284e068effd62b8eefb9fd7bff2d5be.js",
     "service-worker.js": "/project-nautilus/service-worker.js",
     "static/css/main.f414ece1.chunk.css.map": "/project-nautilus/static/css/main.f414ece1.chunk.css.map",
     "static/js/2.953cbe66.chunk.js.LICENSE.txt": "/project-nautilus/static/js/2.953cbe66.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5c29ba9e.js",
     "static/js/2.953cbe66.chunk.js",
     "static/css/main.f414ece1.chunk.css",
-    "static/js/main.71d1623c.chunk.js"
+    "static/js/main.0c7715c9.chunk.js"
   ]
 }
