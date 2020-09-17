@@ -1,0 +1,68 @@
+// Bootstrap imports
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Import variables
+@import "variables";
+
+// Import Bootstrap
+@import "~bootstrap";
+
+.calc-screen {
+  height: 4rem;
+  background: $screenBg;
+  font-size: xx-large;
+  text-align: right;
+  padding: 8px;
+}
+
+.buffer-display{
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: large;
+}
+
+.main-display{
+  padding-top: 10px;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: $bg;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.calc-container{
+  background: $calcBg;
+}
+
+.btn-point-lg{
+  flex-grow: 3!important;
+}
+
+.header{
+  background: darken($bg, 10);
+  color: white;
+}
+
+
+
+
+
+
+
+
